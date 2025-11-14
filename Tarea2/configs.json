@@ -1,0 +1,11 @@
+{
+  "configs": [
+    {"id": "log_1", "technique": "logistic", "eta0": 0.01, "alpha": 1e-4, "batch_size": 256, "max_epochs": 30, "random_state": 42},
+    {"id": "log_2", "technique": "logistic", "eta0": 0.001, "alpha": 1e-3, "batch_size": 512, "max_epochs": 30, "random_state": 43},
+    {"id": "log_3", "technique": "logistic", "eta0": 0.005, "alpha": 1e-5, "batch_size": 128, "max_epochs": 30, "random_state": 44},
+
+    {"id": "svm_1", "technique": "svm", "eta0": 0.01, "alpha": 1e-4, "batch_size": 256, "max_epochs": 30, "random_state": 52},
+    {"id": "svm_2", "technique": "svm", "eta0": 0.001, "alpha": 1e-3, "batch_size": 512, "max_epochs": 30, "random_state": 53},
+    {"id": "svm_3", "technique": "svm", "eta0": 0.005, "alpha": 1e-5, "batch_size": 128, "max_epochs": 30, "random_state": 54}
+  ]
+}
